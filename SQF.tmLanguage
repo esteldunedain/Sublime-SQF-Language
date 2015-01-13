@@ -53,6 +53,12 @@
 			<key>name</key><string>comment.block.sqf</string>
 		</dict>
 		<dict>
+			<key>match</key>
+			<string>QUOTE\((?>[^()]|(?R))*\)</string>
+			<key>name</key>
+			<string>string.quoted.quote.sqf</string>
+		</dict>
+		<dict>
 			<key>begin</key><string>"</string>
 			<key>beginCaptures</key><dict><key>0</key><dict><key>name</key><string>punctuation.definition.string.begin.sqf</string></dict></dict>
 			<key>end</key><string>"</string>
