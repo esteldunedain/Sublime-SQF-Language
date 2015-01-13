@@ -2033,8 +2033,9 @@
         "DFUNC",
         "DEFUNC",
         "QUOTE",
-        "PATHOF",
+        "PATHTOF",
         "PATHTO",
-        "ADDON"
+        "ADDON",
+        "PREP"
     ]
 }
