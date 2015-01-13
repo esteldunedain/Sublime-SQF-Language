@@ -2023,6 +2023,18 @@
         "worldName",
         "worldToModel",
         "worldToModelVisual",
-        "worldToScreen"
+        "worldToScreen",
+        "GVAR",
+        "EGVAR",
+        "QGVAR",
+        "QEGVAR",
+        "FUNC",
+        "EFUNC",
+        "DFUNC",
+        "DEFUNC",
+        "QUOTE",
+        "PATHOF",
+        "PATHTO",
+        "ADDON"
     ]
 }
