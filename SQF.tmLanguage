@@ -54,7 +54,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>QUOTE\((?>[^()]|(?R))*\)</string>
+			<string>QUOTE\((([^\n()]*?\((([^\n()]*?\((([^\n()]*?\([^\n()]*?\)[^\n()]*?)*|[^()\n]*)\)[^\n()]*?)*|[^()\n]*)\)[^\n()]*?)*|[^()\n]*)\)</string>
 			<key>name</key>
 			<string>string.quoted.quote.sqf</string>
 		</dict>
